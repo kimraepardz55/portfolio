@@ -1,0 +1,82 @@
+$primary-color: #fff;
+$primary-overlay: rgb(72, 9, 90);
+$card-cover: rgb(0,0,0);
+
+body {
+          background: $primary-color;
+          font-family: 'Chivo', sans-serif;
+          height: 1000px;
+}
+
+.main-header {
+         background: url(/dist/img/119443684_637687157107823_3596559064880986535_n.jpg);
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         position: relative;  
+         min-height: 580px;
+
+         .primary-overlay{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    background: rgba(darken($primary-overlay, 10%), .5);         
+         }
+
+         .showcase {
+                   padding-top: 7rem;
+
+                   .chevronbutton {
+                             padding-top: 3rem;
+                   }
+         }
+
+         .side-nav {
+
+                    .user-view {
+
+                              position: relative;
+                              top: 0;
+
+                              z-index: 2;
+
+                              &:after {
+                                      content: '';  
+                                      position: absolute;
+                                      background: rgba(darken($card-cover, 10%), .6);
+                                      height: 100%;
+                                      width: 100%;
+                                      top: 0;
+                                      right: 0;
+                                      z-index: -1;
+                              }
+                    }
+         }
+}
+
+.section {
+          &-aboutme{
+                    padding: 4rem;
+          }
+
+          &-info {
+                    padding-top: 4rem;
+                    margin: 0;
+
+                    #infotext{
+                              font-size: 1.2rem;
+                    }
+
+          }
+
+          &-skills {
+                    padding: 4rem 0;
+          }
+
+          &-projects {
+                    padding: 4rem 0;
+
+                    
+          }
+}
+

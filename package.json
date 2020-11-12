@@ -1,0 +1,14 @@
+{
+  "name": "kimraeportfolio",
+  "version": "1.0.0",
+  "description": "KimraePortfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "kimrae",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

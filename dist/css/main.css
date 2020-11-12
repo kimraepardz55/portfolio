@@ -1,0 +1,49 @@
+body {
+  background: #fff;
+  font-family: 'Chivo', sans-serif;
+  height: 1000px; }
+
+.main-header {
+  background: url(/dist/img/119443684_637687157107823_3596559064880986535_n.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  min-height: 580px; }
+  .main-header .primary-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(35, 4, 44, 0.5); }
+  .main-header .showcase {
+    padding-top: 7rem; }
+    .main-header .showcase .chevronbutton {
+      padding-top: 3rem; }
+  .main-header .side-nav .user-view {
+    position: relative;
+    top: 0;
+    z-index: 2; }
+    .main-header .side-nav .user-view:after {
+      content: '';
+      position: absolute;
+      background: rgba(0, 0, 0, 0.6);
+      height: 100%;
+      width: 100%;
+      top: 0;
+      right: 0;
+      z-index: -1; }
+
+.section-aboutme {
+  padding: 4rem; }
+
+.section-info {
+  padding-top: 4rem;
+  margin: 0; }
+  .section-info #infotext {
+    font-size: 1.2rem; }
+
+.section-skills {
+  padding: 4rem 0; }
+
+.section-projects {
+  padding: 4rem 0; }
