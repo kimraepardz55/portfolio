@@ -9,6 +9,7 @@
   "author": "kimrae",
   "license": "MIT",
   "dependencies": {
+    "netlify-cli": "^2.68.7",
     "node-sass": "^4.14.1"
   }
 }
